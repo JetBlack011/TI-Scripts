@@ -1,0 +1,7 @@
+Prompt X
+X->Xmax
+~X->Xmin
+X->Ymax
+~X->Ymin
+X/10->Xscl
+X/10->Yscl
