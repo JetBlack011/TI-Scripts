@@ -1,0 +1,34 @@
+1->P:{0}->L1:0->dim(L2
+For(I,1,length(Str1),1
+	sub(Str1,I,1->Str2
+	If Str2="+"
+	L1(P)+1->L1(P
+	If Str2="-"
+	L1(P)-1->L1(P
+	If Str2=">":Then
+		P+1->P
+		If P>dim(L1
+		dim(L1)+1->dim(L1
+	End
+	If Str2="<":Then
+		P-1->P
+		If P<0
+		0->P
+	End
+	If Str2="[":Then
+		If L1(P)!=0:Then
+			dim(L2)+1->dim(L2
+			I->L2(dim(L2
+	End:End
+	If Str2="]":Then
+		If L1(P)=0:Then
+			dim(L2)-1->dim(L2
+		Else
+			L2(dim(L2->I
+	End:End
+	If Str2="."
+	Disp L1(P
+	If Str2=",":Then
+		Prompt T
+		T->L1(P
+End:End
