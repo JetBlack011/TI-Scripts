@@ -1,0 +1,6 @@
+dim(L1->L
+For(A,1,L/2,1
+	L1(A->B
+	L1(L-(A-1->L1(A
+	B->L1(L-(A-1
+End
