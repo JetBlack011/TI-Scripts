@@ -1,0 +1,7 @@
+Prompt A
+Prompt B
+Prompt C
+(~B+sqrt(B^^2-4AC))/2A->X
+Disp X
+(~B-sqrt(B^^2-4AC))/2A->X
+Disp X
