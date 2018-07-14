@@ -1,0 +1,13 @@
+Prompt N
+0->dim(L1:0->dim(L2
+1->D:1->I
+While D<=N/D
+	If remainder(N,D)=0:Then
+		D->L1(I
+		N/D->L2(I
+		I+1->I
+	End
+	D+1->D
+End
+Disp L1
+Disp L2
