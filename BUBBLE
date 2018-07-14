@@ -1,0 +1,7 @@
+For(C,dim(L1),1,~1
+	For(I,1,C-1,1
+		If L1(I+1)<L1(I:Then
+			L1(I->T
+			L1(I+1->L1(I
+			T->L1(I+1
+End:End:End
